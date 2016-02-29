@@ -17,9 +17,7 @@ layout: bare
 </head>
 
 <body {% if page.body_class %}class="{{ page.body_class }}"{% endif %} data-spy="scroll" data-target="#toc">
-  {% include top.html %}
-
-  {% include attention.html %}
+  {% include header.html %}
 
   {{ content }}
 
